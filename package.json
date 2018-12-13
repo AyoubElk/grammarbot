@@ -12,5 +12,8 @@
     "gulp": "^4.0.0",
     "gulp-mocha": "^6.0.0",
     "sinon": "^7.2.2"
+  },
+  "dependencies": {
+    "qs": "^6.6.0"
   }
 }
