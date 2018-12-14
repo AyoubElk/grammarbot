@@ -29,4 +29,8 @@ describe('GrammarBot Client Unit', function() {
   it('Should have a check function', function () {
     assert.equal(typeof client.check, 'function');
   });
+
+  it('Should have a checkAsync function', function () {
+    assert.equal(typeof client.checkAsync, 'function');
+  });
 });
