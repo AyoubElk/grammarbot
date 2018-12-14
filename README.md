@@ -1,7 +1,7 @@
 
 [![](https://img.shields.io/npm/v/grammarbot.svg)](https://www.npmjs.com/package/grammarbot)
-[![Build Status](https://travis-ci.org/ayoubelk/grammarbot.svg?branch=master)](https://travis-ci.org/ayoubelk/grammarbot)
-[![Coverage Status](https://coveralls.io/repos/github/ayoubelk/grammarbot/badge.svg)](https://coveralls.io/github/ayoubelk/grammarbot)
+[![Build Status](https://travis-ci.org/AyoubElk/grammarbot.svg?branch=master)](https://travis-ci.org/AyoubElk/grammarbot)
+[![Coverage Status](https://coveralls.io/repos/github/AyoubElk/grammarbot/badge.svg)](https://coveralls.io/github/AyoubElk/grammarbot)
 [![Downloads](https://img.shields.io/npm/dm/grammarbot.svg)](https://www.npmjs.com/package/grammarbot)
 [![Try on RunKit](https://badge.runkitcdn.com/grammarbot.svg)](https://runkit.com/npm/grammarbot)
 
