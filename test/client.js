@@ -1,5 +1,7 @@
 const assert = require('assert');
+const sinon = require('sinon');
 const Client = require('../lib/client');
+const helpers = require('../lib/helpers');
 
 
 const config = {
@@ -32,5 +34,13 @@ describe('GrammarBot Client Unit', function() {
 
   it('Should have a checkAsync function', function () {
     assert.equal(typeof client.checkAsync, 'function');
+  });
+
+  it('Should call request function once', function (done) {
+    const request = sinon.stub(helpers, 'request');
+    helpers.request({}, {}, function() {});
+    sinon.assert.calledOnce(request);
+    sinon.assert.calledWith(request, {});
+    done();
   });
 });
