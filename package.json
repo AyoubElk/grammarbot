@@ -4,13 +4,20 @@
   "description": "Grammarbot.io API wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "clean": "rm -rf ./.nyc_output ./node_modules/.cache ./coverage",
+    "start": "node index.js",
+    "test": "npm run lint && nyc mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "report": "./node_modules/nyc/bin/nyc.js -r text -r lcov report",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "author": "Ayoub El Khattabi <elkhattabi.ayoub@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-mocha": "^6.0.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.10.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "sinon": "^7.2.2"
   },
   "dependencies": {
