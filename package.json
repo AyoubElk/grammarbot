@@ -1,6 +1,6 @@
 {
   "name": "grammarbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Grammarbot.io API wrapper",
   "main": "index.js",
   "scripts": {
