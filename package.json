@@ -17,7 +17,7 @@
     "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.1.0",
+    "nyc": "^14.1.1",
     "sinon": "^7.2.2"
   },
   "dependencies": {
