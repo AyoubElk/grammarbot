@@ -36,7 +36,7 @@ const Grammarbot = require('grammarbot');
 const bot = new Grammarbot({
   'api_key' : 'YOUR_API_KEY',      // (Optional) defaults to node_default
   'language': 'LANG_CODE',         // (Optional) defaults to en-US
-  'base_uri': 'pro.grammarbot.io', // (Optional) defaults to api.grammarbot.io
+  'base_uri': 'api.grammarbot.io', // (Optional) defaults to api.grammarbot.io
 });
 
 // Callback style
